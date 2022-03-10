@@ -1,0 +1,39 @@
+.container {
+  width: 100vw;
+  height: 54px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  z-index: 99;
+}
+
+.content {
+  width: 1000px;
+  height: 54px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 5px 0 0 10px;
+  color: black;
+}
+
+.logo:hover {
+  color: var(--strongpink);
+}
+
+.inputContainer {
+  width: 200px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: 700;
+}

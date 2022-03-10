@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'mainFont';
+  src: local('mainFont'), url(./assets/fonts/kongtext.ttf);
+}
+@font-face {
+  font-family: 'nameFont';
+  src: local('nameFont'), url(./assets/fonts/iCielBCRostrum-Regular.otf);
+}
+@import url('./assets/css/nes.css');
+
+:root {
+  --whitepink: #ffe6ff;
+  --strongpink: #ff80ff;
+  --purple: #e6ccff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'mainFont', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: overlay;
+}
+
+::selection {
+  background-color: var(--whitepink);
+}

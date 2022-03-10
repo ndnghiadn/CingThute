@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(257deg, var(--whitepink) 0%, var(--purple) 100%);
+  margin-top: 50px;
+  border-radius: 0.5em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.avatar {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.info {
+  width: 70%;
+  padding: 30px 10px;
+}
+
+.info > h3 {
+  font-family: 'nameFont';
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  padding: 0px 5px;
+}

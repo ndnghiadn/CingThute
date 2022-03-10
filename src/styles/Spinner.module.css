@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.spinner {
+  border: 16px solid var(--purple);
+  border-radius: 50%;
+  border-top: 16px solid var(--whitepink);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

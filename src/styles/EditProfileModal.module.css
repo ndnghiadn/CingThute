@@ -1,0 +1,52 @@
+.modal {
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+.avatar {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+}
+
+.desc {
+  margin-bottom: 50px;
+  height: 120px;
+}
+
+.desc > input {
+  font-family: sans-serif;
+}
+
+.desc_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc_header > p {
+  font-family: sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.fileBtn {
+  font-family: sans-serif;
+  width: 100%;
+  background: #fafafa;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 15px;
+}

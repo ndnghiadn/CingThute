@@ -1,0 +1,55 @@
+.container {
+  background-color: #ffffff;
+  margin: 30px 15px 15px 15px;
+  border: 1px solid #e0e0e0;
+}
+.dFlex,
+.content {
+  padding: 0 25px;
+}
+
+.dFlex {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.name {
+  display: block;
+  margin-left: 15px;
+  font-family: 'nameFont';
+  font-size: 20px;
+  color: black;
+}
+
+.content > p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #332001;
+}
+
+.content > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.time {
+  font-family: sans-serif;
+  margin-left: 20px;
+  color: gray;
+}

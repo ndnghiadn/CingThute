@@ -1,0 +1,20 @@
+[x] Login
+[x] Re-login
+[x] Register
+[x] 404 page
+[x] Create homepage
+[x] Logout
+[x] Profile page
+[x] Searchbox
+[x] Follow/Unfollow a user
+[x] Upload avatar and Update self-description
+[] Scroll to top
+[x] Setting profile
+[x] Create a post 
+[x] Fetch all posts of following and get to the homepage
+[x] Single page for post
+[] Comment feature
+[] Infinite scroll
+[] Chat
+[] Realtime notification
+...
